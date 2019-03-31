@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-        <div class="header">
-                <div class = "left-header-link">
-                    <a class = "link" href="#">About</a>
-                    <a class = "link" href="#">Store</a>
+    <head>
+            <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="left-header">
+                        <a href="#">About</a>
+                        <a href="#">Store</a>
                 </div>
-                    <div class = "right-header-link">
-                    <a class = "link" href="#">Gmail</a>
-                    <a class = "link" href="#">Images</a>
+                <div id="right-header">
+                        <a href="#">Gmail</a>
+                        <a href="#">Images</a>
                 </div>
-                <img id="profile_pic" src="images/justin.jpg" alt="profile">
+                <img id="profile-picture" src="images\justin.jpg" alt="profile pic">
+
             </div>
+            <div id="body">
+                <div id="google-box">
+                    <img alt="Google" src="images/googlelogo_color_272x92dp.png" width="272" height="92">
+                    <form id=form1>
+                        <input type="text">
+                        <br>
+                        <button type="submit" form="form1" value="Submit">Google Search</button>
+                        <button type="submit" form="form1" value="Submit">I'm Feeling Lucky</button>
+                    </form> 
+                </div>
+            </div>
+            <div id="footer">
+                <div id="left-footer">
+                    <a href="#">Advertising</a>
+                    <a href="#">Business</a>
+                </div>
+                <div id="right-footer">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Settings</a>
+                </div>
+            </div>
+        </div>
+    </body>
 
-    <div class="center">
-        <img alt="Google" src="images/googlelogo_color_272x92dp.png" width="272" height="92">
-        
-        <form>
-            <input type="text">
-            <br>
-            <input value="Google Search" type="submit">
-            <input value="I'm Feeling Lucky" type="submit">
-        </form> 
-    </div> 
-
-    <div class="footer">
-        <div class="left-footer-link"><a class = "link" href="#">Advertising</a>
-            <a class = "link" href="#">Business</a></div>
-            <div class="right-footer-link"><a class = "link" href="#">Privacy</a>
-                <a class = "link" href="#">Terms</a>
-                <a class = "link" href="#">Settings</a></div>
-                
-                
-    </div>
-</body>
 </html>
